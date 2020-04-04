@@ -1,9 +1,9 @@
 """
-向tmooc发起请求,并获取响应内容
+向百度发起请求,并获取响应内容
 """
 import urllib.request
 
-# resp = urllib.request.urlopen("http://www.tmooc.cn/")
+# resp = urllib.request.urlopen("http://www.baidu.com/")
 resp = urllib.request.urlopen("http://httpbin.org/get")
 # 1.获取响应对象内容
 html = resp.read().decode("utf-8")
