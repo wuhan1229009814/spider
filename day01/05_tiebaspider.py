@@ -1,3 +1,6 @@
+"""
+爬取贴吧内容
+"""
 from urllib import request, parse
 import time
 import random
